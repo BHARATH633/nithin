@@ -1,0 +1,69 @@
+What is Regression Testing?
+
+Ans:Regression Testing is a type of testing that is done to verify that a code changes in the software does not impact the existing functionality of the product. 
+This is to make sure the product works fine with new functionality, bug fixes or any change in the existing feature. 
+
+What is Retesting ?
+
+Ans: Re Testing is the process of testing the same test case again after the bug Fixes to make sure that whether the bug is fixed or not.
+Here We are not going to check any impact area. we just check the bug is fixed or not.
+
+What is Smoke Testing ?
+
+Ans: Smoke Testing is a software testing method that determines whether the developed build is stable or not. It acts as a confirmation whether the quality assurance team can proceed with further testing. Smoke tests are a minimum set of tests run on each build.
+In other words, we verify whether the important features are working and there are no showstoppers in the build that is under testing.
+
+What is Sanity Testing ?
+
+Ans:Sanity testing is a kind of Software Testing performed after receiving a software build, with minor changes in code, or functionality, to ascertain that the bugs have been fixed and no further issues are introduced due to these changes. The goal is to determine that the proposed functionality works roughly as expected. 
+
+What is Test Strategy ?
+
+Ans:Test strategy is a set of guidelines that explains test design and determines how testing needs to be done.Test strategy cannot be changed.Components of Test strategy includes- objectives and scope, documentation formats, test processes, team reporting structure, client communication strategy, etc.
+
+What is Test Plan ?
+
+Ans: It is a detailed Document that describes the test strategy, objectives,Schedules, Estimation,Deliverables, and resources required to perform testing for a software product. Test plan can be changed.
+
+What is Bug Life Cycle or Defect life cycle?
+
+Ans: Defect Life Cycle is life cycle of defect or bug from which it goes through covering the specific set of states in its entire life. Mainly bug life cycle refers to its entire states starting from a new defect is detected to closing of that defect by tester. Alternatively, it is also called a Bug Life Cycle.
+
+1.New
+2.Assigned
+3.Open
+4.Fixed
+5.pending Re-test
+6.Re-test
+7.verified
+8.closed
+
+status of a bug:
+1.Cant fix( team fails to fix defect due to Technology support, Cost of fixing bug is more).
+2.Deferred(postponement of a bug ).
+3.Rejected(if developer feels it is not a valid bug).
+4.Duplicate(if same bugs are araised with different testers).
+5.Not a Defect(no impact or effect).
+6.Non Reproducable( due to platform mismatch).
+
+What is a Test case and Test scenario ?
+
+Test case:
+	  A test case is a set of actions performed on a system to determine if it satisfies software requirements and functions correctly.
+	  it is a step by step procedure.(it is also called navigation Steps).
+	  A test case document includes test steps, test data, preconditions and the postconditions.
+Test Scenario:
+	    The test scenario is a detailed document of test cases that cover end to end functionality of a software application in liner statements. The liner statement is considered as a scenario. It is also called as a High level document.
+
+
+what is the QA process or Scrum process or Agile or Stlc process followed in your organisation ?
+
+Ans: requirement Analysis
+     test paln
+     Test document                          product owner
+     RTM				    scrum master
+     test Execution                        daily standup call, sprint review, retrospect meeting.
+     Defect/bug tracking
+     Test execution report
+     Retrospect meeting.
+
